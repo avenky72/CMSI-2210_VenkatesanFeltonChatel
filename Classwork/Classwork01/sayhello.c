@@ -1,7 +1,12 @@
-#include <stdio.h>
+ #include <stdio.h>
+#include <stdlib.h>
 
-int main( int argc, char * argv[] ) {
+   int main( int argc, char * argv[] ) {
 
-    printf( "\n\n   Hello, world!\n\n" );
-    
-}
+    char name;
+    printf("What is your name: \n");
+    gets(name);
+    printf("Hello %s", name);
+    return(0);
+
+   }
