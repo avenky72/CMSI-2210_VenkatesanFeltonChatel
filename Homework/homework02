@@ -32,12 +32,17 @@ What are the bottom two layers of a computer system? Give a brief desciption of 
 Digital logic which is the hardware where everything is contained. And the Control layer which uses the hardware and microcode.
 
 What are the three steps of the Von Neumann Architecture?
+The control unit fetches the program instructions from memory --> the instruction is decoded --> the Arithmetic Logic Unit executes it.
+Necessary parts: Main memory, CPU, single path between memory and CPU.
 
 What is the purpose of an ALU?
+It performs simple arithmetic tasks and logic operations.
 
 What is a register?
+Memory that stores, transfers, and accepts data and instructions from the CPU.
 
 What is one difference between Application software and System software?
+Application is more involved with the user while system is internal (hardware/machine side).
 
 Is the phrase cmp rdi, rsi machine language?
 No, it's assembly.
