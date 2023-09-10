@@ -1,24 +1,35 @@
 What is a computer system?
+The combination of software and hardware in a computer.
 
 What are some of the parts of a computer system?
+The CPU, motherboard, BIOS, RAM, etc.
 
 What is the difference between a compiled language and an intepreted language?
+A compiled language is converted into a language the computer can understand, while interpretd can be directly understood by the machine.
 
 Is C a compiled language?
+Yes because it uses a compiler.
 
 Who invented the C language?
+Dennis Ritchie.
 
 How long has C been in use?
+It was first used in 1972, 51 years ago.
 
 Is a compiler a translator?
+Yes because it translates source code into machine code.
 
 Is an assembler a translator?
+Yes because it translates assembly language into machine code.
 
 What is the command to list out the contents of a directory on a mac terminal window?
+ls
 
 What does the C function atof() do?
+Converts a string into a floating point number.
 
 What are the bottom two layers of a computer system? Give a brief desciption of each.
+Digital logic which is the hardware where everything is contained. And the Control layer which uses the hardware and microcode.
 
 What are the three steps of the Von Neumann Architecture?
 
@@ -29,11 +40,16 @@ What is a register?
 What is one difference between Application software and System software?
 
 Is the phrase cmp rdi, rsi machine language?
+No, it's assembly.
 
 How many buses are included in the system bus?
+3 (data, address, control)
 
 What is the decimal value of 100101112?
+6845
 
 What is the decimal value of 111111112?
+255
 
 What is the largest unsigned integer value that will fit into 16 bits?
+65535
