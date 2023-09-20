@@ -20,7 +20,7 @@ If we had 20-bit registers, the largest signed decimal integer value would be: 5
 The modular sum of 16-bit hex values 3511 + 4FFC is: 34269
 The saturated sum of 16-bit hex values 3511 + 4FFC is: 85AD
 The 16-bit operation 0x3511 + 0x4FFC has a carry (Y or N): Y
-The 16-bit operation 0x3511 + 0x4FFC has a overflows (Y or N): Y
+The 16-bit operation 0x3511 + 0x4FFC has a overflows (Y or N): N
 
 B Level:
 The modular sum of 16-bit hex values 6159 + F702 is: FFFF
