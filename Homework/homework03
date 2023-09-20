@@ -20,3 +20,21 @@ The modular sum of 16-bit hex values 3511 + 4FFC is: 34269
 The saturated sum of 16-bit hex values 3511 + 4FFC is: 85AD
 The 16-bit operation 0x3511 + 0x4FFC has a carry (Y or N): Y
 The 16-bit operation 0x3511 + 0x4FFC has a overflows (Y or N): Y
+
+The modular sum of 16-bit hex values 6159 + F702 is: 595B(carry 1)
+The saturated sum of 16-bit hex values 6159 + F702 is: 595B
+The 16-bit operation 0x6159 + 0xF702 has a carry (Y or N): Y
+The 16-bit operation 0x6159 + 0xF702 has an overflow (Y or N): N
+The modular sum of 16-bit hex values EEEE + C00C is: AEFA(carry 1)
+The saturated sum of 16-bit hex values EEEE + C00C is: AEFA
+The 16-bit operation 9EEE + AB0C has a carry (Y or N): Y
+The 16-bit operation 9EEE + AB0C has an overflow (Y or N): N
+The negation of 16-bit word 0xB00F is:
+The negation of 16-bit word 0x2232 is:
+The negation of 16-bit word 0x8000 is:
+The negation of 32-bit word 0xFFF329BA is:
+96.03125 as a 32-bit float, in hex is: 42c01000
+-16777216 as a 32-bit float, in hex is: cb800000
+Hex 43700000, when interpreted as an IEEE-754 pattern, is in decimal: 240
+Hex C0FF0000, when interpreted as an IEEE-754 pattern, is in decimal: -7.96875
+
