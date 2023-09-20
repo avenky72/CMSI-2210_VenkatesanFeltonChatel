@@ -40,7 +40,7 @@ The negation of 32-bit word 0xFFF329BA is: 00000000000011001101011001000110 (000
 Hex 43700000, when interpreted as an IEEE-754 pattern, is in decimal: 240
 Hex C0FF0000, when interpreted as an IEEE-754 pattern, is in decimal: -7.96875
 
-C Level:
+A Level:
 The largest finite IEEE-754 single precision float, in hex is: 7F7FFFFF
 The smallest finite IEEE-754 single precision float, in hex is: 00000001
 The largest nonzero negative IEEE-754 single precision float, in hex is: FF7FFFFF
