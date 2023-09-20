@@ -29,10 +29,10 @@ The modular sum of 16-bit hex values EEEE + C00C is: AEFA(carry 1)
 The saturated sum of 16-bit hex values EEEE + C00C is: AEFA
 The 16-bit operation 9EEE + AB0C has a carry (Y or N): Y
 The 16-bit operation 9EEE + AB0C has an overflow (Y or N): N
-The negation of 16-bit word 0xB00F is: 0100111111110001
-The negation of 16-bit word 0x2232 is: 1101110111001110
-The negation of 16-bit word 0x8000 is: 1000000000000000
-The negation of 32-bit word 0xFFF329BA is: 00000000000011001101011001000110
+The negation of 16-bit word 0xB00F is: 0100111111110001 (0x4FF1)
+The negation of 16-bit word 0x2232 is: 1101110111001110 (0xDECE)
+The negation of 16-bit word 0x8000 is: 1000000000000000 (0x8000)
+The negation of 32-bit word 0xFFF329BA is: 00000000000011001101011001000110 (0x00000046)
 96.03125 as a 32-bit float, in hex is: 42c01000
 -16777216 as a 32-bit float, in hex is: cb800000
 Hex 43700000, when interpreted as an IEEE-754 pattern, is in decimal: 240
