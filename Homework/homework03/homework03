@@ -26,11 +26,11 @@ B Level:
 The modular sum of 16-bit hex values 6159 + F702 is: FFFF
 The saturated sum of 16-bit hex values 6159 + F702 is: 595B(carry 1)
 The 16-bit operation 0x6159 + 0xF702 has a carry (Y or N): Y
-The 16-bit operation 0x6159 + 0xF702 has an overflow (Y or N): N
+The 16-bit operation 0x6159 + 0xF702 has an overflow (Y or N): Y
 The modular sum of 16-bit hex values EEEE + C00C is: FFFF
 The saturated sum of 16-bit hex values EEEE + C00C is: AEFA(carry 1)
 The 16-bit operation 9EEE + AB0C has a carry (Y or N): Y
-The 16-bit operation 9EEE + AB0C has an overflow (Y or N): N
+The 16-bit operation 9EEE + AB0C has an overflow (Y or N): Y
 The negation of 16-bit word 0xB00F is: 0100111111110001 (4FF1)
 The negation of 16-bit word 0x2232 is: 1101110111001110 (DECE)
 The negation of 16-bit word 0x8000 is: 1000000000000000 (8000)
