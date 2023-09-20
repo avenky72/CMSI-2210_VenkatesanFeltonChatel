@@ -23,12 +23,12 @@ The 16-bit operation 0x3511 + 0x4FFC has a carry (Y or N): Y
 The 16-bit operation 0x3511 + 0x4FFC has a overflows (Y or N): Y
 
 B Level:
-The modular sum of 16-bit hex values 6159 + F702 is: 595B(carry 1)
-The saturated sum of 16-bit hex values 6159 + F702 is: 595B
+The modular sum of 16-bit hex values 6159 + F702 is: FFFF
+The saturated sum of 16-bit hex values 6159 + F702 is: 595B(carry 1)
 The 16-bit operation 0x6159 + 0xF702 has a carry (Y or N): Y
 The 16-bit operation 0x6159 + 0xF702 has an overflow (Y or N): N
-The modular sum of 16-bit hex values EEEE + C00C is: AEFA(carry 1)
-The saturated sum of 16-bit hex values EEEE + C00C is: AEFA
+The modular sum of 16-bit hex values EEEE + C00C is: FFFF
+The saturated sum of 16-bit hex values EEEE + C00C is: AEFA(carry 1)
 The 16-bit operation 9EEE + AB0C has a carry (Y or N): Y
 The 16-bit operation 9EEE + AB0C has an overflow (Y or N): N
 The negation of 16-bit word 0xB00F is: 0100111111110001 (4FF1)
