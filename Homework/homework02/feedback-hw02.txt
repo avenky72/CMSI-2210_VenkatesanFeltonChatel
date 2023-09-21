@@ -1,0 +1,49 @@
+
+
+Evaluation Criteria ~ homework02
+CMSI 2210 Section 03 Fall 2023
+=================================
+
+BOOK PROBLEMS
+   Question 01    1/1 pt.
+   Question 02    1/1 pt.
+   Question 03  0.5/1 pt.
+   Question 04    1/1 pt.
+   Question 05    1/1 pt.
+   Question 06    1/1 pt.
+   Question 07    1/1 pt.
+   Question 08    1/1 pt.
+   Question 09    1/1 pt.
+   Question 10    1/1 pt.
+   Question 11    1/1 pt.
+   Question 12    1/1 pt.
+   Question 13    1/1 pt.
+   Question 14    1/1 pt.
+   Question 15    1/1 pt.
+   Question 16    1/1 pt.
+   Question 17    1/1 pt.
+   Question 18    0/1 pt.
+   Question 19    1/1 pt.
+   Question 20    1/1 pt.
+
+Total possible points 20
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 18.5/20 which is 92.5% which is an A-minus
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+On question three, you are close.  A compiler produces machine code which is
+understood by the CPU, but it does it for an entire file all at once.  An
+interpreter does the same, but it is done line-by-line and requires an extra
+external "run-time" program like python or the JVM to do the interpreting.
+
+On question 18, the answer is 151 decimal.  Too bad you didn't show some of
+your calculations so I can advise you where you made your mistake.  I'm sure
+you'll figure it out, though....  :)
+
+Otherwise, a nice job!
+
