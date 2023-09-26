@@ -13,14 +13,14 @@ Decimal 8000 encoded in 16-bits (signed) is in hex: 1F40
 Decimal -11 encoded in 16-bits (signed) is in hex: FFF5
 Decimal -32717 encoded in 16-bits (signed) is in hex: 8033
 Binary 10111101 in hex is: BD
-Binary 1011110100000001 as an unsigned decimal is: 23843
-Binary 1011110100000001 as a signed decimal is: -16383
+Binary 1011110100000001 as an unsigned decimal is: 48385
+Binary 1011110100000001 as a signed decimal is: -17151
 If we had 20-bit registers, the smallest signed decimal integer value would be: -524288
 If we had 20-bit registers, the largest signed decimal integer value would be: 524287
 The modular sum of 16-bit hex values 3511 + 4FFC is: 34269
 The saturated sum of 16-bit hex values 3511 + 4FFC is: 85AD
-The 16-bit operation 0x3511 + 0x4FFC has a carry (Y or N): Y
-The 16-bit operation 0x3511 + 0x4FFC has a overflows (Y or N): N
+The 16-bit operation 0x3511 + 0x4FFC has a carry (Y or N): N
+The 16-bit operation 0x3511 + 0x4FFC has a overflows (Y or N): Y
 
 B Level:
 The modular sum of 16-bit hex values 6159 + F702 is: FFFF
