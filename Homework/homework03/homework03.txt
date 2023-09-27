@@ -32,9 +32,9 @@ The saturated sum of 16-bit hex values EEEE + C00C is: FFFF
 The 16-bit operation 9EEE + AB0C has a carry (Y or N): Y
 The 16-bit operation 9EEE + AB0C has an overflow (Y or N): Y
 The negation of 16-bit word 0xB00F is: 0100111111110001 (4FF1)
-The negation of 16-bit word 0x2232 is: 1101110111001110 (DECE)
+The negation of 16-bit word 0x2232 is: 1101110111001101 (DDCD)
 The negation of 16-bit word 0x8000 is: 1000000000000000 (8000)
-The negation of 32-bit word 0xFFF329BA is: 00000000000011001101011001000110 (00000046)
+The negation of 32-bit word 0xFFF329BA is: 00000000000011001101011001000101 (000CD645)
 96.03125 as a 32-bit float, in hex is: 42C01000
 -16777216 as a 32-bit float, in hex is: CB800000
 Hex 43700000, when interpreted as an IEEE-754 pattern, is in decimal: 240
