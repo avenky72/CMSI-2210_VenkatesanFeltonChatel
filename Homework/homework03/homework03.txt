@@ -42,10 +42,10 @@ Hex C0FF0000, when interpreted as an IEEE-754 pattern, is in decimal: -7.96875
 
 
 A Level:
-The largest finite IEEE-754 single precision float, in hex is: 7F7FFFFF
-The smallest finite IEEE-754 single precision float, in hex is: 00000001
-The largest nonzero negative IEEE-754 single precision float, in hex is: FF7FFFFF
-The smallest nonezero positive IEEE-754 single precision float, in hex is: 3F800000
--5.125 X 2^90 as a 32-bit float, in hex is: D9A00000
-2^-138 as a 32-bit float, in hex is: 74000000
-1.5 X 2^-143 as a 32-bit float, in hex is: 3F800000
+The largest finite IEEE-754 single precision float, in hex is: 0x7F7FFFFF
+The smallest finite IEEE-754 single precision float, in hex is: 0x00800000
+The largest nonzero negative IEEE-754 single precision float, in hex is: 0xFF800000
+The smallest nonezero positive IEEE-754 single precision float, in hex is: 0x00000001
+-5.125 X 2^90 as a 32-bit float, in hex is: 0xEDA409CE
+2^-138 as a 32-bit float, in hex is: 0x00000001
+1.5 X 2^-143 as a 32-bit float, in hex is: 0x00000000
