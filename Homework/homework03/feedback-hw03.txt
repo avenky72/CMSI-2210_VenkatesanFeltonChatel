@@ -21,25 +21,25 @@ Problems "C-level"
    Question 12      1/1 pt.
    Question 13      1/1 pt.
    Question 14      1/1 pt.
-   Question 15      0/1 pt.   nope!
-   Question 16      0/1 pt.   nope!
+   Question 15      0/1 pt.   Corrected
+   Question 16      0/1 pt.   Corrected
    Question 17      1/1 pt.
    Question 18      1/1 pt.
    Question 19      1/1 pt.
    Question 20      1/1 pt.
-   Question 21      0/1 pt.   nope!
-   Question 22      0/1 pt.   nope!
+   Question 21      0/1 pt.   Corrected
+   Question 22      0/1 pt.   Corrected
 
 
 Problems "B-level"
 =================
 [renumber so only the actual questions are numbered]
-   Question  01     0/1 pt.   nope!
-   Question  02     0/1 pt.   nope!
+   Question  01     0/1 pt.   Corrected
+   Question  02     0/1 pt.   Corrected
    Question  03     1/1 pt.
-   Question  04     0/1 pt.   nope!
-   Question  05     0/1 pt.   nope!
-   Question  06     0/1 pt.   nope!
+   Question  04     0/1 pt.   Corrected
+   Question  05     0/1 pt.   Corrected
+   Question  06     0/1 pt.   Corrected
    Question  07     1/1 pt.
    Question  08     1/1 pt.
    Question  09     1/1 pt.
@@ -109,4 +109,30 @@ for the assignment.
 Make your corrections and re-submit to your repo by Thursday, September 28th.
 You'll get full credit for the highest section's value that has 100% correct
 answers.
+
+========================================================
+SECOND PASS OUTCOME:
+
+Still a couple of errors in the "B" level section:
+#10: negation of 0x2232 should be 0xDDCE
+#12: negation of 0xFFF329BA should be 0x000C D646
+
+Still a couple of errors in the "A" level section:
+#2: really should be 0xFF7FFFFF not 0x00800000
+#3: really should be 0x80000001 not 0xFF800000
+   even swapped they are still wrong
+#6: should be 0x00000800
+#7: should be 0x00000060
+
+you have all the "C" level problems correct, but that is the highest level
+for which all problems are right.  You earned a "C" on the assignment.
+
+========================================================
+FINAL PASS OUTCOME:
+
+Combining all levels into one assignment.
+
+Total of 45 problems.
+
+You earned 38/45 which is 84.45% which is a B.
 
