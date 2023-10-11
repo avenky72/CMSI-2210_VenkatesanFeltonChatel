@@ -96,6 +96,24 @@ A := A ÷ B
 if R > 0 then IP := x
 if R = 0 then P[0x200] :=A
 
+============================
+
+LOAD 0x100
+STORE A
+LOAD 0x100
+STORE B
+CMP B, 0
+JZ end
+GCD:
+DIV B
+STORE R
+CMP R, 0
+JZ COMPLETE
+JMP GCD
+COMPLETE:
+STORE 0x200
+
+
 7. For the sample single-accumulator computer discussed in class, give a code fragment, in assembly language of the stanley/penguin language, that swaps the accumulator and memory address 0x30AA. You do not need to write machine code for this problem.
 
 8. For the sample single-accumulator computer discussed in class, give a code fragment, in assembly language of the stanley/penguin language that has the effect of jumping to the code at address 0x837BBE1 if the value in the accumulator is greater than or equal to 0. You do not need to write machine code for this problem.
