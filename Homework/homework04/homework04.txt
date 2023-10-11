@@ -115,6 +115,10 @@ STORE 0x200
 
 
 7. For the sample single-accumulator computer discussed in class, give a code fragment, in assembly language of the stanley/penguin language, that swaps the accumulator and memory address 0x30AA. You do not need to write machine code for this problem.
+STORE 0x3000
+LOAD 0x30AA
+STORE 0x30AA
+LOAD 0x3000
 
 8. For the sample single-accumulator computer discussed in class, give a code fragment, in assembly language of the stanley/penguin language that has the effect of jumping to the code at address 0x837BBE1 if the value in the accumulator is greater than or equal to 0. You do not need to write machine code for this problem.
 
