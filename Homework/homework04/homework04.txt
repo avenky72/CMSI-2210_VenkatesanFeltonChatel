@@ -87,6 +87,14 @@ AND 0xAAAAAAAA
 
 
 6. For the sample single-accumulator computer discussed in class, write a complete assembly language program in the stanley/penguin language that computes a greatest common divisor. Assume the two inputs are read in from port 0x100. Write the result to port 0x200. You do not need to write machine code for this problem.
+LOAD 0x100
+STORE A
+LOAD 0x100
+STORE B
+DIV B
+STORE R
+CMP R, 0
+
 
 7. For the sample single-accumulator computer discussed in class, give a code fragment, in assembly language of the stanley/penguin language, that swaps the accumulator and memory address 0x30AA. You do not need to write machine code for this problem.
 
