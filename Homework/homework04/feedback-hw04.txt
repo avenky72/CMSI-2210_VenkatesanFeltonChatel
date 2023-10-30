@@ -1,0 +1,88 @@
+
+
+Evaluation Criteria ~ homework04
+CMSI 2210 Section 02 Fall 2023
+=================================
+
+LOGIC DESIGN
+   Logic Question 1a          7 pts.
+   Logic Question 1b          3 pts.
+   Logic Question 2           5 pts.
+
+REGISTER OPERATIONS
+   Register clear even        2 pts.
+   Register set last 3        0 pts.
+   Reg./8 remainder           1 pts.
+   Reg. set to -1             0 pts.
+   Reg. invert 2 MSBs         0 pts.
+   Register computation       0 pts.
+
+STANLEY/PENGUIN ASSEMBLY
+   Q4 - program 1a           10 pts.
+   Q5 - program 1b            2 pts.
+   Q6 - GCD prog.             9 pts.
+   Q7 - swap frag             2 pts.
+   Q8 - jmp to addr           3 pts.
+
+REGISTER INVESTIGATION
+   Q9a - high level expl.     5 pts.
+   Q9b - Why?                 5 pts.
+
+
+Total possible points        90 points
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 54.0/ 90.0 which is 60% which is not great...
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+On #1, you're pretty close ~ the equations should be:
+   X = A OR (B AND C)
+   Y = NOT-A OR C
+   X = (A NAND A) NAND (B NAND C)
+   Y = A NAND (C NAND C)
+
+On #2, are you thinking that the XNOR gates are two-input gates to which
+   each letter goes to both inputs of the gates?  If that is the case, this
+   won't work, because the inputs to the XOR part will be the same, which
+   means the XNOR part will always produce a "1".  Perhaps next time, draw
+   the circuit out fully so that your meaning is clear...
+
+On #3, I only see solutions for part a) nd a partial solution for part c).
+
+On #4, the subtraction should be of 0x100, not 0xff.  Think about it.....
+
+On #5, I think you missed the point of the problem.  You are supposed to do
+   a translation [assemble] the code from #4 into the 32-bit instructions
+   which correspond to the mnemonics.
+
+On #6, this is supposed to be Stanley/Penguin language, which has no "CMP"
+   instruction, and should use "MOD" not "DIV" to get the remainder.  Also,
+   you don't "WRITE" the output to the port, so that instruction is wrong.
+
+On #7, your code fragment won't swap the values, it will simply re-load them
+   to their original locations.  You need something like:
+      STORE temp1
+      LOAD  0x30AA
+      STORE temp2
+      LOAD  temp1
+      STORE 0x30AA
+      LOAD  temp2
+
+On #8, again, Stanley/Penguin has no "CMP" instruction.
+
+Keep trying and don't get discouraged...
+========================================================
+SEMESTER SCORE SO FAR:
+
+   homework01 ~ 100.00% of  5 points =  5.00 points
+   homework02 ~  92.50% of  5 points =  4.63 points
+   homework03 ~  84.44% of  5 points =  4.22 points
+   homework04 ~  60.00% of  5 points =  3.00 points
+                                total: 16.85 out of 20.0 = 84.25%
+                                which is a solid B
+
+Hang in there and come see me if you have questions....
