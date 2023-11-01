@@ -9,9 +9,11 @@ int main(int argc, char *argv[]) {
     printf("Enter a base-10 number: ");
     scanf("%u", &number);
   }
-  char binary[32];
-  for (int i = 31; i >= 0; i--) {
-    binary[i] = (number & (1 << i)) ? '1' : '0';
-  }
-  return binary;
+  char binary[33];
+  binary[32] = '\0';
+  for (int i = 0; i < 32; i++) {
+  binary[31 - i] = (number & (1u << i)) ? '1' : '0';
+}
+  printf("%s\n", binary);
+  return 0;
 }
