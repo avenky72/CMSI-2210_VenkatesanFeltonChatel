@@ -16,7 +16,7 @@ int countWords(FILE *file) {
 }
 int main(int argc, char *argv[]) {
   if (argc != 2) {
-    printf("the file is: %s <file_name>\n", argv[0]);
+    printf("usage: %s <file_name>\n", argv[0]);
     exit(1);
   }
   FILE *file = fopen(argv[1], "r");
