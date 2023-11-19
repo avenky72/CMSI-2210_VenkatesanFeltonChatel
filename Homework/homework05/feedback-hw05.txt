@@ -19,7 +19,7 @@ holdit
    compiles       5
    runs tests     15
 wordcount
-   compiles       5
+   compiles       4
    error checks   5
    runs tests     10
 
@@ -28,22 +28,28 @@ wordcount
 ========================================================
 
 TOTAL EARNED POINTS:
-   you earned 94/100 which is 94.00% which is an A-plus
+   you earned 93/100 which is 93.00% which is a solid A
 
 ========================================================
 SPECIFIC COMMENTS/FEEDBACK:
 
+In timesTables you don't check for an empty command line argument, which was
+   part of the problem specification, nor do you check for a letter input
+   instead of a number on the command line.  I changed the name of the file
+   to match the specified program name so that my scripts would run.
 
+In wordcount, you didn't include <string.h> so there was a compile error.  I
+   fixed the error for you so I could test your code.
 
 ========================================================
 SEMESTER SCORE SO FAR:
 
    homework01 ~ 100.00% of  5 points =  5.00 points
-   homework02 ~ 100.00% of  5 points =  5.00 points
-   homework03 ~ 100.00% of  5 points =  5.00 points
-   homework04 ~ 100.00% of  5 points =  5.00 points
-   homework05 ~ 100.00% of 10 points = 10.00 points
-                                total: 30.00 out of 30.00 = 100.00%
-                                which is an A-plus
+   homework02 ~  92.50% of  5 points =  4.63 points
+   homework03 ~  84.44% of  5 points =  4.22 points
+   homework04 ~  60.00% of  5 points =  3.00 points
+   homework05 ~  93.00% of 10 points =  9.30 points
+                                total: 26.15 out of 30.00 = 87.17%
+                                which is a respectable B-plus
 
-Your code looks VERY nice, you two obviously care about the craft....
+You did very well on this last one ~ keep it up now to finish the semester....

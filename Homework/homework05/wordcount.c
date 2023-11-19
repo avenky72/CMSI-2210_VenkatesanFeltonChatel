@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>           // you left this out, causing a compile error
 #define WHITESPACE " \t\n"
 
 int countWords(FILE *file) {
