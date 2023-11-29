@@ -30,4 +30,4 @@ start:
 
     mov [result], eax
     ret
-result: 
+result: ;dd 0?
