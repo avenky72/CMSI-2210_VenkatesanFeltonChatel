@@ -1,7 +1,11 @@
 global start
 section .data
-num1:    dd 3113041662
-num2:    dd 11570925
+num1 db "Enter number" 0       
+num2 db "Enter number" 0
+
+segment .bss
+input1  resd 1
+input2  resd 1
 section .text
 start:
 
