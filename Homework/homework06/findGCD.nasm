@@ -1,3 +1,8 @@
+
+;nasm -f elf64 findGCD.nasm
+;ld -o findGCD findGCD.o
+;./findGCD
+
 global start
 section .data
 num1 db "Enter number" 0       
