@@ -1,3 +1,9 @@
+/* 
+Compilation Instructions:
+To link:        gcc makeNBOC.c -o makeNBOC
+To run:         ./makeNBOC <value>
+—------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <arpa/inet.h>
