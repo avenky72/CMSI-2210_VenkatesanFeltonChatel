@@ -1,3 +1,7 @@
+*/gcc gcdFinder.c -o gcdFinder 
+./gcdFinder
+*/
+    
 #include <stdio.h>
 #include <assert.h>
 
