@@ -1,3 +1,9 @@
+/* 
+Compilation Instructions:
+To link:        gcc whichEndIsUp.c -o whichEndIsUp
+To run:         ./whichEndIsUp
+—------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 
 int main() {
