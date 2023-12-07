@@ -1,4 +1,4 @@
-*/gcc gcdFinder.c -o gcdFinder 
+/*gcc gcdFinder.c -o gcdFinder 
 ./gcdFinder
 */
     
