@@ -1,3 +1,9 @@
+; Compilation Instructions:
+; To assemble:		nasm -f elf64 makeNBON.nasm -o makeNBON.o
+; To link:			gcc -o makeNBON makeNBON.o makeNBOC.c
+; To run:			./makeNBON <value>
+; —---------------------------------------------------------------------------------
+
 global main
 extern networkByteOrder
 
