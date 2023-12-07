@@ -1,3 +1,9 @@
+/* 
+Compilation Instructions:
+To link:        gcc makeNBOtest.c -o makeNBOtest
+To run:         ./makeNBOtest
+—------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 
 extern unsigned int networkByteOrder(unsigned int number) {
