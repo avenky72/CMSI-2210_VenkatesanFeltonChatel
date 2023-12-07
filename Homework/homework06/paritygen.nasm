@@ -1,3 +1,7 @@
+;nasm -f elf64 paritygen.nasm
+;ld -o paritygen paritygen.o
+;./paritygen
+
 global _paritygen
 
 section .text
