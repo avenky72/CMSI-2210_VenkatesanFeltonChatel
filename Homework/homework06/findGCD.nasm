@@ -5,8 +5,8 @@
 
 global start
 section .data
-num1 db "Enter number" 0       
-num2 db "Enter number" 0
+num1 db "Enter number", 0
+num2 db "Enter number", 0
 
 segment .bss
 input1  resd 1

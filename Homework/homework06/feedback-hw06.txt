@@ -1,0 +1,87 @@
+
+
+Evaluation Criteria ~ homework06
+CMSI 2210 Section all Fall 2023
+=================================
+
+FINDGCD.NASM
+   nasm file assembles  [0 pts.]
+   nasm runs            [0 pts.]
+   output correct       [0 pts.]
+GCDFINDER
+   nasm file assembles  [0 pts.]
+   gcdFinder.c compiles [5 pts.]
+   link both files OK   [0 pts.]
+   nasm returns value   [3 pts.]
+   output correct       [1 pts.]
+PARITYGEN
+   nasm file assembles  [0 pts.]
+   nasm runs            [3 pts.]
+   output correct       [1 pts.]
+WHICHENDISUP
+   compiles no errors   [5 pts.]
+   runs no errors       [5 pts.]
+MAKENBOC.C
+   compiles no errors   [5 pts.]
+   uses previous func.  [5 pts.]
+   tester compiles      [5 pts.]
+   tester runs          [0 pts.]
+   output correct       [1 pts.]
+MAKENBO.NASM
+   nasm file assembles  [5 pts.]
+   link all files OK    [5 pts.]
+   calls "C" function   [5 pts.]
+   output correct       [3 pts.]
+
+Total possible points 100
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 57.00/100.00 which is 57% which is not so great...
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+problem 1 findGCD.nasm: doesn't assemble since you omitted the comma at the
+   end of the 'num1' and 'num2' definitions.  I fixed that for you, but then
+   there are two errors that the instruction is not supported in 64-bit mode.
+   sorry.
+
+problem 2 findGCDfunc.nasm & gcdFinder.c: the command in your source file
+   doesn't work.  I get a 'symbol not found' linker error for "_gcd".  You
+   were supposed to create a separate file called "findGCDfunc.nasm" for this
+   problem, which you didn't do.  oops.
+
+problem 3 partiygen.nasm: lines 9 and 25 give the assembler error "instruction
+   not supported in 64-bit mode".  The algorithm looks right.
+
+problem 4 whichEndIsUp.c: perfect.
+
+problem 5 makeNBOC.c & makeNBOCtest.c: makeNBOC.c works as a standalone program
+   but was supposed to be a function.  The makeNBOCtest.c program was supposed
+   to call your function, but doesn't.  You didn't follow the directions.
+
+problem 6 makeNBOC.c & makeNBON.nasm: The commands you gave work for building
+   this program.
+
+========================================================
+SEMESTER HOMEWORK TOTALS:
+
+   homework01 ~ 100.00% of  5 points =  5.00 points
+   homework02 ~  92.50% of  5 points =  4.63 points
+   homework03 ~  84.44% of  5 points =  4.22 points
+   homework04 ~  60.00% of  5 points =  3.00 points
+   homework05 ~  93.00% of 10 points =  9.30 points
+   homework06 ~  57.00% of 15 points = 10.00 points
+                       semester total: 45.00 out of 45.00 = 100.00%
+                                total: 26.15 out of 30.00 = 87.17%
+                             which is an A-plus
+
+You get 10 points for homework06 because you submitted code [5 points] and you
+followed the directions to include the build commands [5 points].  However, the
+commands you submitted didn't work.
+
+Not bad for this assignment.  Great having you in class this semester and I look
+forward to seeing you in the Spring!
+
